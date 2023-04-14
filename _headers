@@ -3,5 +3,5 @@
   X-XSS-Protection: 1; mode=block
   Content-Security-Policy: child-src 'self' app.netlify.com; script-src 'self' app.netlify.com netlify-cdp-loader.netlify.app;
     X-Content-Type-Options: nosniff
-    referrer-policy: origin-when-cross-origin
-Permissions-Policy: interest-coho
+    referrer-policy: same-origin
+Permissions-Policy: geolocation=(self "https://example.com"), microphone=()
